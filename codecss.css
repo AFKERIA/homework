@@ -1,0 +1,126 @@
+body {
+    background-color: beige;
+}
+.main {
+    
+    background-color:honeydew;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.login {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.frameA {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.A1 {
+    background-color:aqua;
+    width: 500px;
+    height: 300px;
+    border-width: 3px;
+    border-style: dashed;
+}
+.A2 {
+    background-color:brown;
+    width: 500px;
+    height: 300px;
+    border-width: 3px;
+    border-left-width: 0px;
+    border-style: dashed;
+}
+.A3 {
+    background-color:darkmagenta;
+    width: 500px;
+    height: 300px;
+    border-width: 3px;
+    border-left-width: 0px;
+    border-style: dashed;
+}
+.frameB {
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.B1 {
+    width: 15%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.B2 {
+    font-size: large;
+    
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.frameC {
+    margin: 12px auto 48px auto;
+    max-height: 400px;
+    max-width: 740px;
+    display: flex;
+    justify-content: center;
+    
+}
+.C1 {
+    flex: 2;
+    background-color: black;
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+
+}
+.C2 {
+    background-color: whitesmoke;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 0px;
+}
+.C2a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.C2b {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+.frameD {
+    
+    margin: 50px 100px;
+    background-color: deepskyblue;
+    max-width: 360px;
+}
+.frameE {
+    margin: 12px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    max-height: 400px;
+}
+.E1 {
+    flex: 1;
+    display: flex;
+}
+.E2 {
+    display: flex;
+    flex: 1;
+    margin-left: 20px;
+}
