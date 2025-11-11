@@ -1,6 +1,7 @@
 function StrToNum(k) {
     return parseInt(k, 10);
 }
+// hello bro
 var cur = "";
 var ds = 0;
 var dau = 0;
